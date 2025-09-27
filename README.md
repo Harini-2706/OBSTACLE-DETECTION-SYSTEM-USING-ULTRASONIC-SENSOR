@@ -1,4 +1,4 @@
-# OBSTACLE-DETECTION-SYSTEM-USING-ULTRASONIC-SENSOR
+# OBSTACLE DETECTION SYSTEM USING ULTRASONIC SENSOR
 
 ## Aim:
 To design and simulate a distance measurement system using an ultrasonic sensor HC-SR04 interfaced with an Arduino Uno board in Tinkercad.
@@ -19,9 +19,10 @@ Tinkercad provides a simulation environment where this circuit can be virtually 
 
 
 ## Circuit Diagram:
-<img width="905" height="703" alt="image" src="https://github.com/user-attachments/assets/0fe2acc6-c029-499b-b3f5-5c343649da08" />
+<img width="905" height="703" alt="image" src="https://github.com/user-attachments/assets/caaf862e-5fee-4025-af51-7d6786ce0f54" />
+
  
-## Procedure: //Modify the procedure based on your circuit
+## Procedure: 
 
 Step 1: Set Up the Tinkercad Environment
 1.	Log in to Tinkercad: Open Tinkercad in your web browser and log into your account.
@@ -54,7 +55,7 @@ Step 7: Save Your Work
 
 
 ## Code:
-```
+~~~
 #define echoPin 2   
 #define trigPin 3   
 
@@ -82,17 +83,10 @@ void loop() {
   Serial.print(distance);
   Serial.println(" cm");
 }
-```
-
+~~~
 
 ## Output:
-https://github.com/user-attachments/assets/c056ba2f-4828-41b8-bea8-8e6611510c51
- 
+https://github.com/user-attachments/assets/2d3ed52c-8c06-4034-85e7-6ab4b5ba5240
 
-
-## Result
-The simulation successfully measured the distance between the ultrasonic sensor HC-SR04 and the object. The real-time distance values were accurately displayed on the serial monitor in centimeters.
-
-
-Result:
+## Result:
 The simulation successfully measured the distance between the ultrasonic sensor  HC-SR04 and the object. The real-time distance values were accurately displayed on the serial monitor in centimeters.
